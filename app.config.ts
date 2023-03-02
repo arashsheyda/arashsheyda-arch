@@ -1,6 +1,6 @@
 export default defineAppConfig({
   arch: {
-    baseUrl: 'https://arashshyeda.me',
+    baseUrl: 'https://arashsheyda.me',
     image: '/public/cover.jpg',
     favicon: '/public/favicon.ico',
     title: 'Arash Sheyda',
