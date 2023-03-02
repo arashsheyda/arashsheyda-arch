@@ -1,5 +1,8 @@
 export default defineAppConfig({
   arch: {
+    baseUrl: 'https://arashshyeda.me',
+    image: '/public/cover.jpg',
+    favicon: '/public/favicon.ico',
     title: 'Arash Sheyda',
     description: 'Arash Sheyda - Full Stack Developer',
     keywords: 'Arash Sheyda, Full Stack Developer',
