@@ -1,7 +1,7 @@
 ---
 layout: post
 # title: First Article
-image: /public/uploads/images/blog/laravel-package.jpg
+image: /uploads/images/blog/laravel-package.jpg
 description: This is the first article
 date: 2020-03-07
 tags: ['logos:laravel', 'logos:composer']

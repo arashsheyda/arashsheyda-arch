@@ -1,7 +1,7 @@
 ---
 layout: post
 # title: First Article
-image: /public/uploads/images/blog/introduction-to-nest-graphql.jpg
+image: /uploads/images/blog/introduction-to-nest-graphql.jpg
 description: This is the first article
 date: 2021-04-01
 tags: ['logos:nestjs', 'logos:graphql']

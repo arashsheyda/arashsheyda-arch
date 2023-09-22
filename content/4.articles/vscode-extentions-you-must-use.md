@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /public/uploads/images/blog/vscode-extentions.jpg
+image: /uploads/images/blog/vscode-extentions.jpg
 description: This is the first article
 date: 2020-02-11
 tags: ['logos:visual-studio-code']

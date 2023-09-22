@@ -1,7 +1,7 @@
 ---
 layout: post
 # title: First Article
-image: /public/uploads/images/blog/movies-for-programmers.jpg
+image: /uploads/images/blog/movies-for-programmers.jpg
 description: This is the first article
 date: 2021-04-13
 tags: ['tabler:movie']

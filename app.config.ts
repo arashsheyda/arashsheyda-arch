@@ -1,55 +1,73 @@
 export default defineAppConfig({
   arch: {
-    baseUrl: 'https://arashsheyda.me',
-    image: '/public/cover.jpg',
-    favicon: '/public/favicon.ico',
-    title: 'Arash Sheyda',
-    description: 'Arash Sheyda - Full Stack Developer',
-    keywords: 'Arash Sheyda, Full Stack Developer',
-    banner: {
-      image: '/public/assets/images/banner.jpg'
+    general: {
+      locale: 'en',
+      title: 'Arch',
+      image: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/cover.jpg',
+      description: 'Nuxt Arch Template',
+      keywords: 'nuxt arch template',
+      favicon: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/favicon.ico',
+      themeColor: '#ffffff',
     },
-    info: {
-      image: '/public/assets/images/logo.jpg',
-      hoverImage: '/public/assets/images/logo.jpg',
+    banner: {
+      image: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/images/banner.jpg',
+    },
+    aside: {
       name: 'Arash Sheyda',
-      job: 'Full Stack Developer',
+      job: 'Software Developer',
+      image: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/images/logo.jpg',
+      imageHover: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/images/logo-hover.jpg',
       email: 'arashi.sheyda@gmail.com',
-      phone: '+1 (587) 447-9957',
-      company: '',
-      location: 'Alberta, CA',
+      company: '@',
+      phone: '(587) 447 99 57',
+      location: 'Canada',
     },
     footer: {
-      copyright: 'Arash Sheyda',
+      copyright: {
+        name: 'Arash Sheyda'
+      },
       links: [
+        // {
+        //   title: 'Uses',
+        //   url: '/uses',
+        // },
         {
-          title: '🎯 Goals',
-          url: '/goals'
-        }
-      ]
+          title: 'Goals',
+          url: '/goals',
+          icon: '🎯',
+        },
+      ],
+      poweredBy: true,
     },
     socials: [
       {
-        name: 'Github',
+        title: 'Github',
         icon: 'uil:github',
         url: 'https://github.com/arashsheyda',
         color: '#000000',
-        target: '_blank'
+        target: '_blank',
       },
       {
-        name: 'Instgaram',
+        title: 'Instgaram',
         icon: 'uil:instagram',
         url: 'https://www.instagram.com/arash.sheyda',
         color: '#e4405f',
-        target: '_blank'
+        target: '_blank',
       },
       {
-        name: 'Twitter',
+        title: 'Twitter',
         icon: 'uil:twitter',
         url: 'https://twitter.com/arash_sheyda',
         color: '#1da1f2',
-        target: '_blank'
-      }
+        target: '_blank',
+      },
+      {
+        title: 'LinkedIn',
+        icon: 'uil:linkedin',
+        url: 'https://www.linkedin.com/in/arash-sheyda/',
+        color: '#0a66c2',
+        target: '_blank',
+      },
     ],
-  }
+  },
 })

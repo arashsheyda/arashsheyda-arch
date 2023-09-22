@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to NX for monorepos
-image: /public/uploads/images/blog/introduction-to-nx.jpg
+image: /uploads/images/blog/introduction-to-nx.jpg
 description: Nx is a smart, fast and extensible build system with first class monorepo support and powerful integrations
 date: 2021-04-18
 tags: ['logos:nx']

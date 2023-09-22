@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nuxt 3 with Three.js
-image: /public/uploads/images/blog/nuxt-with-threejs.jpg
+image: /uploads/images/blog/nuxt-with-threejs.jpg
 date: 2023-01-03
 tags: ['logos:nuxt-icon']
 published: true
@@ -38,12 +38,8 @@ yarn add three @types/three --dev
 Now, we can use Three.js in our Nuxt 3 project. Let's create a new component called `arch.vue` in the `components` directory and add the following code:
 
 ```vue
-<template>
-  <canvas ref="container" />
-</template>
-
 <script lang="ts" setup>
-import { Scene, PerspectiveCamera, Mesh, SphereGeometry, MeshBasicMaterial, WebGLRenderer } from 'three'
+import { Mesh, MeshBasicMaterial, PerspectiveCamera, Scene, SphereGeometry, WebGLRenderer } from 'three'
 import { useWindowSize } from '@vueuse/core'
 import { Ref } from 'vue'
 
@@ -69,13 +65,13 @@ function updateRenderer() {
 }
 
 function setRenderer() {
-   if (container.value) {
+  if (container.value) {
     renderer = new WebGLRenderer({ canvas: container.value })
     updateRenderer()
   }
 }
 
-const animate = () => {
+function animate() {
   updateRenderer()
   requestAnimationFrame(animate)
 }
@@ -90,6 +86,10 @@ onMounted(() => {
   animate()
 })
 </script>
+
+<template>
+  <canvas ref="container" />
+</template>
 ```
 
 - don't forget when using `arch.vue` component you need to wrap it with `ClientOnly` component to prevent errors on server-side rendering; or add `.client` to end of component name.
