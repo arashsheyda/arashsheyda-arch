@@ -23,13 +23,13 @@ Nuxt 3 is a web application framework based on Vue.js, it is designed to make we
 
 First, we need to create a new Nuxt 3 project:
 
-```bash
+```bash [terminal]
 npx nuxi init nuxt-threejs
 ```
 
 Then, we need to install the Three.js dependency:
 
-```bash
+```bash [terminal]
 yarn add three @types/three --dev
 ```
 
@@ -37,7 +37,7 @@ yarn add three @types/three --dev
 
 Now, we can use Three.js in our Nuxt 3 project. Let's create a new component called `arch.vue` in the `components` directory and add the following code:
 
-```vue
+```vue [arch.vue]
 <script lang="ts" setup>
 import { Mesh, MeshBasicMaterial, PerspectiveCamera, Scene, SphereGeometry, WebGLRenderer } from 'three'
 import { useWindowSize } from '@vueuse/core'
