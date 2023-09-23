@@ -8,7 +8,9 @@ export default defineAppConfig({
       keywords: 'nuxt arch template',
       favicon: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/favicon.ico',
       themeColor: '#ffffff',
+      sponsor: 'https://github.com/sponsors/arashsheyda',
     },
+    // banner: false,
     banner: {
       image: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/images/banner.jpg',
     },
@@ -24,7 +26,7 @@ export default defineAppConfig({
     },
     footer: {
       copyright: {
-        name: 'Arash Sheyda'
+        name: 'Arash Sheyda',
       },
       links: [
         // {
