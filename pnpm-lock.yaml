@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@nuxtjs/plausible':
+    specifier: ^0.2.3
+    version: 0.2.3
   nuxt:
     specifier: ^3.7.4
     version: 3.7.4
@@ -1135,6 +1138,18 @@ packages:
       unified: 11.0.3
       unist-builder: 4.0.0
       unist-util-visit: 5.0.0
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
+
+  /@nuxtjs/plausible@0.2.3:
+    resolution: {integrity: sha512-HGZA70ad6IgaP0bN2N3sEsBxURZfUb8HMMxQ7s/Iqw1U8snBsByAEaIxD0eafWLOvwNckHMTYzCIl+Xs6ZiXSA==}
+    dependencies:
+      '@nuxt/kit': 3.7.4
+      defu: 6.1.2
+      pathe: 1.1.1
+      plausible-tracker: 0.3.8
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -5873,6 +5888,11 @@ packages:
       jsonc-parser: 3.2.0
       mlly: 1.4.2
       pathe: 1.1.1
+    dev: true
+
+  /plausible-tracker@0.3.8:
+    resolution: {integrity: sha512-lmOWYQ7s9KOUJ1R+YTOR3HrjdbxIS2Z4de0P/Jx2dQPteznJl2eX3tXxKClpvbfyGP59B5bbhW8ftN59HbbFSg==}
+    engines: {node: '>=10'}
     dev: true
 
   /playwright-core@1.38.1:
