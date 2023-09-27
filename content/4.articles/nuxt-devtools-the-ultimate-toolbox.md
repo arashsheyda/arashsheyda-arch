@@ -232,9 +232,9 @@ onDevtoolsClientConnected(async (client) => {
 make sure to use the same `RPC_NAMESPACE`
 ::
 
-so now we can simply call rpc in our client side and call a server rpc (e.g. `getModulesOptions`): `~/client/app.vue`
+so now we can simply call rpc in our client side and call a server rpc (e.g. `getModulesOptions`): `~/client/pages/index.vue`
 
-```vue [app.vue]
+```vue [index.vue]
 <script setup lang="ts">
 import { rpc } from '../composables/rpc'
 
