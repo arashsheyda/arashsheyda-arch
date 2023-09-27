@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "nuxt": "^3.7.4",
-    "nuxt-arch": "0.1.0-beta.9"
+    "nuxt-arch": "0.1.0-beta.10"
   }
 }
