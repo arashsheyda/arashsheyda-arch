@@ -8,7 +8,6 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxtjs/plausible": "^0.2.3",
     "nuxt": "^3.7.4",
     "nuxt-arch": "0.1.0-beta.9"
   }
