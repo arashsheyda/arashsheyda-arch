@@ -19,7 +19,7 @@ export default defineAppConfig({
       job: 'Software Developer',
       image: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/images/logo.jpg',
       imageHover: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/images/logo-hover.jpg',
-      email: 'arashi.sheyda@gmail.com',
+      email: 'hi@arashsheyda.me',
       company: '@',
       phone: '(587) 447 99 57',
       location: 'Canada',
