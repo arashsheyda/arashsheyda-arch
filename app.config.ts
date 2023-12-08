@@ -3,7 +3,7 @@ export default defineAppConfig({
     general: {
       locale: 'en',
       title: 'Arch',
-      image: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/cover.jpg',
+      image: 'https://avatars.githubusercontent.com/u/38922203',
       description: 'Arash Sheyda\'s Personal Website',
       keywords: 'Arash Sheyda, Nuxt Arch, personal website',
       favicon: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/favicon.ico',
