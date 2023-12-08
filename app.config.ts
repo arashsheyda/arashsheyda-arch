@@ -3,7 +3,7 @@ export default defineAppConfig({
     general: {
       locale: 'en',
       title: 'Arch',
-      image: 'https://avatars.githubusercontent.com/u/38922203',
+      image: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/cover.jpg',
       description: 'Arash Sheyda\'s Personal Website',
       keywords: 'Arash Sheyda, Nuxt Arch, personal website',
       favicon: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/favicon.ico',
@@ -17,7 +17,7 @@ export default defineAppConfig({
     aside: {
       name: 'Arash Sheyda',
       job: 'Software Developer',
-      image: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/images/logo.jpg',
+      image: 'https://avatars.githubusercontent.com/u/38922203',
       imageHover: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/images/logo-hover.jpg',
       email: 'hi@arashsheyda.me',
       company: '@',
