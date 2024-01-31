@@ -21,7 +21,6 @@ export default defineAppConfig({
       imageHover: 'https://raw.githubusercontent.com/arashsheyda/arch/main/.playground/public/images/logo-hover.jpg',
       email: 'hi@arashsheyda.me',
       company: '@Auctria',
-      phone: '(587) 447 99 57',
       location: 'Canada',
     },
     footer: {
