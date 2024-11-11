@@ -1,6 +1,9 @@
 export default defineNuxtConfig({
   devtools: false,
   extends: ['nuxt-arch'],
+  css: [
+    '~/styles/style.scss',
+  ],
   runtimeConfig: {
     public: {
       siteUrl: 'https://arashsheyda.me',
